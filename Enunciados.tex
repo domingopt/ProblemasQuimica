@@ -1,0 +1,189 @@
+\documentclass[11pt,twoside,a4paper]{article}
+\usepackage[spanish]{babel}
+\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage[version=3]{mhchem}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Problemas de Quimica}
+\author{Maria Trillo Alcala}
+%\date{}                                           % Activate to display a given date or no date
+
+%definition of the new style
+\newtheoremstyle{problem}% name 
+  {8pt}% Space above 
+  {12pt}% Space below 
+  {}% Body font
+  {}% Indent amount
+  {\bfseries}% Theorem head font 
+  {}% Punctuation after theorem head 
+  {6pt}% Space after theorem head
+  {}% Theorem head spec
+
+%declaring the style to be used
+\theoremstyle{problem}
+%declaring the new theorem-like structure and declaring that
+%it should be numbered within chapters
+\newtheorem{prob}{Ejercicio}[section]
+
+\begin{document}
+
+\section{Incluir el tema 1}
+
+\section{Propiedades de la Tabla Periódica}
+
+\begin{prob}
+Indica cuántos electrones externos tienen los siguientes átomos: Ca, B, N, K, I.
+Para responder es preciso considerar el grupo y el periodo de la Tabla Periódica al que pertence
+cada uno de ellos. 
+\end{prob}
+
+
+\begin{prob}
+¿Qué elementos tienen mayor radio: el bario o el calcio? ¿Cuál es el más electronegativo el O o el Ar?
+\end{prob}
+
+
+\begin{prob}
+Dados los elementos Ar (Z=8), As (Z=33) y I (Z=53). Indica el grupo y el periodo al que pertenecen.
+¿Cuál de ellos tiene una mayor energía de ionización? 
+\end{prob}
+
+
+\begin{prob}
+¿Qué elementos tienen más tendencia a formar iones positivos, el berilio o el bario?
+¿Cuál tiene más tendencia a formar iones negativos, el carbono o el oxígeno?
+\end{prob}
+
+
+\section{El enlace químico}
+
+\begin{prob}
+Dibuja las estructuras de Lewis que cumplan la regla del octeto de:
+\begin{enumerate}
+	\item Anión carbonato
+	\item Amoniaco
+	\item Ácido clórico
+\end{enumerate}
+\end{prob}
+
+
+\begin{prob}
+Teniendo en cuenta la teoría de los enlaces de valencia, explica las valencias
+covalentes del flúor, del oxígeno y del azufre. 
+\end{prob}
+
+
+\begin{prob}
+Teniendo en cuenta la teoría anterior, explica y representa las siguientes moléculas:
+$Cl_2$, $HCl$, $O_2$, $N_2$. ¿Cuáles presentan enlaces múltiples?
+\end{prob}
+
+
+\begin{prob}
+¿Se precisa la misma energía para romper un enlace $\sigma$ que un $\pi$?\\
+Según la T.E.V., ¿qué forma tendrá la molécula de agua? Clasifica sus enlaces covalentes
+en función de su polaridad.
+\end{prob}
+
+
+\begin{prob}
+Observa los puntos de ebullición de las siguientes sustancias. Justifica sus valores de acuerdo con
+la naturaleza de sus enlaces y / o fuerzas intermoleculares.
+\vspace{8pt}
+
+\begin{tabular}{|c|c|}
+\hline
+Sustancia covalente& Punto de ebullición $(ºC)$\\
+\hline
+$O_2$&-183\\
+$H_2O$&100\\
+$I_2$&183\\
+$C$ (diamante)&4200\\
+\hline
+\end{tabular}
+\end{prob}
+
+
+\begin{prob}
+Indica la carga esperada para los iones que componen las siguientes sustancias basándote en el grupo
+a que pertenecen y sus características como metales o no metales. Nombra a dichos iones.
+\begin{itemize}
+\item $NaCl$
+\item $CaBr_2$
+\item $MgS$
+\item $BaO$
+\item $Al_2O_3$
+\item $SrH_2$
+\item $KH$
+\item $Na_2O_2$
+\item $BnOH$
+\item $NH_4F$
+\end{itemize}
+\end{prob}
+
+
+\begin{prob}
+Clasifique las siguientes sustancias según el tipo de enlace que presenten:
+\begin{itemize}
+\item $MgCl_2$
+\item $PCl_5$
+\item $Au$
+\item $Fe$
+\item $SO_2$
+\item $H_2O$
+\item $NH_3$
+\end{itemize}
+\end{prob}
+
+
+\begin{prob}
+Teniendo en cuenta los puntos de fusión y de ebullición de las siguientes sustancias que aparecen en la tabla. 
+Justifica sus valores y explica en qué estado de agregación se encuentran a temperatura ambiente (unos 298 K).
+\vspace{8pt}
+
+\begin{tabular}{|r|c|c|c|c|}
+\hline
+Sustancias& $F_2$& $Cl_2$& $Br_2$& $I_2$\\
+\hline
+PF $(ºC)$	&-223	&-102	&-7'3		&114\\
+\hline
+PE $(ºC)$	&-187	&-33'7	&58'8	&182\\
+\hline
+\end{tabular}
+
+\end{prob}
+
+
+\begin{prob}
+Señala razonadamente si las siguientes afirmaciones son verdaderas o falsas:
+\begin{enumerate}
+\item La fórmula del cloruro de sodio es NaCl; por tanto está formado por dos moléculas.
+\item El hierro es un metal; por tanto su punto de fusión será muy alto.
+\item El enlace covalente es un enlace débil; por eso el grafito (mina de los lápices) se rompe fácilmente.
+\item El oxígeno forma moléculas y es un gas a temperatura ambiente. El agua forma moléculas y no es un 
+gas a temperatura ambiente.
+\end{enumerate}
+\end{prob}
+
+
+\begin{prob}
+Indica el tipo de enlace esperado en cada caso para una sustancia que:
+\begin{enumerate}
+\item Cuando se disuelve conduce la corriente eléctrica.
+\item No se puede disolver en agua ni conduce la corriente eléctrica.
+\item Reacciona con el agua de forma violenta pero conduce la corriente eléctrica en estado sólido.
+\item Es gaseosa a temperatura ambiente.
+\end{enumerate}
+\end{prob}
+
+
+\end{document}
