@@ -11,11 +11,14 @@
 \usepackage[version=3]{mhchem}
 \usepackage{amssymb}
 \usepackage{epstopdf}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{pdfpages}
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
-\title{Problemas de Quimica}
-\author{Maria Trillo Alcala}
+\title{Problemas de Química}
+\author{Maria Trillo Alcalá}
 %\date{}                                           % Activate to display a given date or no date
 
 %definition of the new style
@@ -36,10 +39,11 @@
 \newtheorem{prob}{Ejercicio}[section]
 
 \begin{document}
-
-\section{Incluir el tema 1}
-
+\includepdf[pages=-]{title.pdf}
+\input{EstructuraAtomica}
+\newpage
 \input{PropiedadesTabla}
+\newpage
 \input{EnlaceQuimico}
 
 \end{document}
